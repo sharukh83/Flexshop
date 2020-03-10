@@ -1,0 +1,154 @@
+﻿
+@import url('footers.css');
+body {
+}
+.cb-footer{
+  
+    background-position: initial;
+    text-align: center;
+    background-image: initial;
+    background-size: initial;
+    background-position-x:initial;
+    background-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(74, 74, 74);
+    color: #FFF;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    background-repeat: repeat;
+    -webkit-animation:colorchange 10s infinite alternate;
+   
+}
+.cb-col{
+    display:inline-block;
+    box-sizing:border-box;
+    float:left;
+    min-height:1px;
+}
+.cb-col-100{
+    width:110%;
+}
+.cb-ftr-cntrn{
+    max-width:1200px;
+    margin: 30px auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+}
+cb-col-25{
+    width:106%;
+}
+.text-left{
+    text-align:left;
+}
+.cb-font-16{
+    font-size:16px;
+}
+.text-bold{
+    font-weight:bold;
+}
+.cb-ftr-ul{
+    padding-left:0;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 40px;
+}
+.cb-ftr-lst{
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    padding: 5px 0;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    text-align: left;
+}
+.text-white{
+    
+}
+a, a:hover, a:active, a:focus {
+    outline: medium none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: medium;
+}
+a {
+    text-decoration: underline;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #000000;
+   
+}
+.shops {
+    vertical-align: 3px;
+}
+
+                      /**************** Animation ****************/
+
+                      .weather{
+     font-family:futura;
+     font-style:italic;
+     font-size:45px;
+     font-weight:bold;
+     -webkit-animation:colorchange 10s infinite alternate;
+
+ }
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: #ff6347;
+    }
+
+    10% {
+        color: deepskyblue;
+    }
+
+    20% {
+        color: mediumblue;
+    }
+
+    30% {
+        color: mediumspringgreen;
+    }
+
+    40% {
+        color: orange;
+    }
+
+    50% {
+        color: rgba(59, 47, 217, 0.63);
+    }
+
+    60% {
+        color: indianred;
+    }
+
+    70% {
+        color: brown;
+    }
+
+    80% {
+        color: peru;
+    }
+
+    90% {
+        color: deeppink;
+    }
+
+    100% {
+        color: rgba(59, 47, 217, 0.63);
+    }
+}
